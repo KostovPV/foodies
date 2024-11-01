@@ -4,7 +4,9 @@ import classes from './main-header.module.css';
 import Image from "next/image";
 import MainHeaderBackground from "./main-header-background";
 
-export default function MainHeader() {
+export default function MainHeader() { 
+    console.log('Execution');
+    
     return <>
     <MainHeaderBackground />
         <header className={classes.header} >
